@@ -24,9 +24,15 @@ body {
 
 .navbar {
   backdrop-filter: blur(10px);
-  background-color: rgba(33, 37, 41, 0.95) !important;
+  background-color: #30343f !important;
   margin-bottom: 0px;
   margin-top: 0px;
+}
+
+.navbar-logo {
+  height: 50px;
+  width: auto;
+  margin-right: 10px;
 }
 
 footer {
@@ -35,6 +41,7 @@ footer {
   height: 100px;
   width: 100%;
 }
+
 
 
 .card {

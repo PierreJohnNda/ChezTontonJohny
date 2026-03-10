@@ -18,10 +18,12 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div className="container">
+        <div className="navbar-logo-container">
+          <img src="/public/ChezTonton.png" alt="Logo" className="navbar-logo" />
+        </div>
         <Link className="navbar-brand" to="/">
           Chez Tonton Johny
         </Link>
-        
         <button
           className="navbar-toggler"
           type="button"
@@ -32,7 +34,7 @@ const Navbar = () => {
 
         <div className={`collapse navbar-collapse ${isDropdownOpen ? 'show' : ''}`}>
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-          
+
             <li className="nav-item">
               <Link className="nav-link" to="/cocktails">Nos cocktails</Link>
             </li>
