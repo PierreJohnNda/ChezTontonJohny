@@ -5,22 +5,22 @@ const Home = () => {
   return (
     <div className="home">
       <div className="hero-section" style={{
-        backgroundImage: 'url("./public/Koktelz.svg")',
-        backgroundSize: 'full-width',
+        backgroundImage: 'url("./public/ChezTonton.gif")',
+        backgroundSize: 'cover',
         backgroundPosition: 'center',
         height: '100vh'
       }}>
         <div className="container h-100">
           <div className="row h-100 align-items-center">
             <div className="col-12 text-center text-white">
-              <h1 className="display-1 fw-bold">Bienvenue au Koktel'z</h1>
-              <p className="lead mb-4">by Kanzaely</p>
-              <p className="lead mb-4">Amateurs de grillades en tout genre, cet endroit est le vôtre. Accompagné de nos coktails fait maison et de nos vins, vous vous régalerez 😃. </p>
+              <h1 className="display-1 fw-bold">Bienvenue chez Tonton Johny</h1>
+              <p className="lead mb-4"></p>
+              <p className="lead mb-4">Amateurs de grillades, de desserts et de recettes en tout genre venues du monde, cet endroit est le vôtre.Vous vous régalerez là où l'amour de la cuisine fusionne avec ses saveurs 😃. </p>
               <Link to="/recipes" className="btn btn-primary-1 btn-lg me-3">
                 Nos plats
               </Link>
               <Link to="/cocktails" className="btn btn-outline-light btn-lg">
-                Nos Koktelz
+                Nos cocktails
               </Link>
             </div>
           </div>

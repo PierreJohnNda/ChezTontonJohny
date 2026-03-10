@@ -19,7 +19,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div className="container">
         <Link className="navbar-brand" to="/">
-          Koktel'z by Kanzaely
+          Chez Tonton Johny
         </Link>
         
         <button
@@ -34,7 +34,7 @@ const Navbar = () => {
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
           
             <li className="nav-item">
-              <Link className="nav-link" to="/cocktails">Nos Koktelz</Link>
+              <Link className="nav-link" to="/cocktails">Nos cocktails</Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/categories">Nos plats par catégories</Link>
